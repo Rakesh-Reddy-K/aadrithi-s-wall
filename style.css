@@ -180,3 +180,16 @@ h1 {
     overflow: hidden;
   }
 }
+
+.circle-image-container {
+  text-align: center; /* Centers the image */
+  margin: 20px 0;
+}
+
+.circle-image {
+  width: 150px; /* Adjust the size */
+  height: 150px;
+  border-radius: 50%; /* Makes the image circular */
+  object-fit: cover; /* Ensures the image covers the circle properly */
+  border: 5px solid #d81b60; /* Optional: Adds a border around the image */
+}
