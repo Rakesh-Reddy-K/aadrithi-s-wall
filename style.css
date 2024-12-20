@@ -9,7 +9,7 @@
 }
 
 .container {
-  width: 100%;
+  width: 90%;
   margin: 0 auto;
   padding: 40px 20px;
 }
@@ -98,3 +98,55 @@
   margin-top: 10px;
 }
 
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f9f3f3;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  color: #555;
+}
+
+.invitation-container {
+  background-color: #fce4ec;
+  padding: 40px;
+  border-radius: 10px;
+  width: 80%;
+  max-width: 600px;
+  margin: 50px auto;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  font-size: 36px;
+  color: #d81b60;
+  margin-bottom: 20px;
+}
+
+.invitation-text {
+  font-size: 18px;
+  line-height: 1.6;
+  margin-bottom: 30px;
+  color: #333;
+}
+
+.highlight {
+  font-weight: bold;
+  color: #d81b60;
+}
+
+.footer {
+  font-size: 20px;
+  font-weight: bold;
+  color: #d81b60;
+}
+
+.decorative {
+  font-size: 28px;
+  color: #f48fb1;
+}
+
+.time-location {
+  font-size: 18px;
+  margin: 10px 0;
+}
