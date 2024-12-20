@@ -49,8 +49,8 @@
 
 .image-box {
   margin: 12px;
-  /*height: 200px;
-  width: 200px;*/
+  height: 200px;
+  width: 200px;
   border-radius: 8px;
   overflow: hidden;
 }
@@ -149,4 +149,33 @@ h1 {
 .time-location {
   font-size: 18px;
   margin: 10px 0;
+}
+
+/* Mobile responsiveness */
+@media (max-width: 600px) {
+  .invitation-container {
+    padding: 20px;
+    width: 100%;
+  }
+
+  h1 {
+    font-size: 28px;
+  }
+
+  .invitation-text {
+    font-size: 16px;
+  }
+
+  .footer {
+    font-size: 18px;
+  }
+
+  .decorative {
+    font-size: 24px;
+  }
+  .image-box {
+    margin: 12px;
+    border-radius: 8px;
+    overflow: hidden;
+  }
 }
