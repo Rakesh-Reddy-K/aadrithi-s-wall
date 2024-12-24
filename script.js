@@ -1,6 +1,10 @@
 const tabs = document.querySelectorAll('.tab');
 const tabContents = document.querySelectorAll('.tab-content');
 
+// Set the default active tab and content
+document.querySelector('.tab[data-tab="home"]').classList.add('active');
+document.getElementById('home').classList.add('active');
+
 tabs.forEach(tab => {
   tab.addEventListener('click', () => {
     // Remove active class from all tabs and contents

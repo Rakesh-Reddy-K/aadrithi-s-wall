@@ -187,8 +187,8 @@ h1 {
 }
 
 .circle-image {
-  width: 150px; /* Adjust the size */
-  height: 150px;
+  width: 180px; /* Adjust the size */
+  height: 180px;
   border-radius: 50%; /* Makes the image circular */
   object-fit: cover; /* Ensures the image covers the circle properly */
   border: 5px solid #d81b60; /* Optional: Adds a border around the image */
@@ -199,7 +199,7 @@ h1 {
 /* Mobile responsiveness */
 @media (max-width: 600px) {
   .circle-image {
-    width: 120px; /* Adjust size for mobile */
-    height: 120px; /* Adjust size for mobile */
+    width: 180px; /* Adjust size for mobile */
+    height: 180px; /* Adjust size for mobile */
   }
 }
